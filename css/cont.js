@@ -64,4 +64,3 @@ return unescape(document.cookie.substring(offset, endstr));
 }
 
 var txt="VISITORS COUNT :";
-ß

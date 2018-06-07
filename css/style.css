@@ -16,6 +16,10 @@
 	-o-background-size:cover;
 	background-size: cover;
 	background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#336699;
 }
 
 hr{
@@ -29,7 +33,6 @@ hr{
   background-attachment: fixed;
 	background-size: cover;
   background-color:#336699;
-  -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
   background-repeat: no-repeat;	/*height:100%;
