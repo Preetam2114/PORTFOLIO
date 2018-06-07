@@ -10,6 +10,7 @@
 }
 
 .workshop{
+  white-space: nowrap;
 	background:linear-gradient( rgba(0,0,0,.35), rgba(0,0,0,.35) ),url(https://images.unsplash.com/photo-1473831818960-c89731aabc3e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c5b723d05824021bdab67bc0e14a5fb0&auto=format&fit=crop&w=1050&q=80); 
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -28,6 +29,7 @@ hr{
 	border-bottom:1px solid rgba(0,0,0,0.2);
 }
 .body{
+  white-space: nowrap;
 	background:linear-gradient( rgba(0,0,0,.45), rgba(0,0,0,.45) ),url(https://images.unsplash.com/photo-1455894127589-22f75500213a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f78ddf3c2fede3ef1bf89ecbc88bea2c&auto=format&fit=crop&w=979&q=80); 
   background-position: center center;
   background-attachment: fixed;
@@ -204,6 +206,7 @@ body {
 
 /*content sizing*/
 .WebContainer{
+    white-space: nowrap;
     width: 100%;
     height: auto;
 }
