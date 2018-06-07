@@ -1,0 +1,232 @@
+#cont{
+	text-align: center;
+	padding-top:20%;
+	color:white;
+	text-shadow: 0px 3px 2px rgba(0,0,0,0.2)
+}
+#h1{
+	font-weight: 700px;
+	font-size: 4em;
+}
+
+.workshop{
+	background:linear-gradient( rgba(0,0,0,.35), rgba(0,0,0,.35) ),url(https://images.unsplash.com/photo-1473831818960-c89731aabc3e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c5b723d05824021bdab67bc0e14a5fb0&auto=format&fit=crop&w=1050&q=80); 
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+hr{
+	width:100%;
+	border-top:1px solid;
+	border-bottom:1px solid rgba(0,0,0,0.2);
+}
+.body{
+	background:linear-gradient( rgba(0,0,0,.45), rgba(0,0,0,.45) ),url(https://images.unsplash.com/photo-1455894127589-22f75500213a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f78ddf3c2fede3ef1bf89ecbc88bea2c&auto=format&fit=crop&w=979&q=80); 
+  background-position: center center;
+  background-attachment: fixed;
+	background-size: cover;
+  background-color:#336699;
+  background-repeat: no-repeat;	/*height:100%;
+	width: 100%;*/
+}
+html
+{
+	height:100%;
+}
+.container{
+	white-space: nowrap;
+}
+
+.stat {
+	padding:20px 5px;
+	background:#336699;
+	text-align:center;
+	float:left;
+	margin-left:100px;
+	width:150px;
+}
+.stat-count {
+	font-size: 51px;
+	font-weight: normal;
+	letter-spacing: -0.02em;
+	line-height: 1.2;
+	margin-bottom: 20px;
+	overflow:hidden;
+	font-family:"Georgia", Courier, monospace;
+	padding: 0;
+	position: relative;
+}
+.stat-detail {
+	color:#fff;
+	padding-top:10px;
+	font: italic 1.3rem/1.75 "Georgia", Courier, monospace;
+}
+
+.workshopcard{
+	padding-left: 20px;
+	padding-top: 48px;
+	padding-right: 20px;
+}
+
+body {
+	margin:0;
+	font-family: arial;
+}
+
+.topnav {	width:100%;
+  border-radius: 25px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  border-radius: 25px;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.avail{
+  border-radius: 25px;
+  background-color: #2901DA;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+    border-radius: 25px;
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    border-radius: 25px;
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    font-size: 14px;
+    margin: 0;
+}
+
+.dropdown-content {
+    border-radius: 25px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    border-radius: 25px;
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropbtn:hover{
+  background-color:#555;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/*content sizing*/
+.WebContainer{
+    width: 100%;
+    height: auto;
+}
+.articles{
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+} 
+
+/*type effect*/
+.typewriter h1{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
