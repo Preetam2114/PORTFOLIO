@@ -29,6 +29,9 @@ hr{
   background-attachment: fixed;
 	background-size: cover;
   background-color:#336699;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
   background-repeat: no-repeat;	/*height:100%;
 	width: 100%;*/
 }
