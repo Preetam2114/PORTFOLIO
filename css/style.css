@@ -26,7 +26,7 @@ hr{
 .body{
 	background:linear-gradient( rgba(0,0,0,.45), rgba(0,0,0,.45) ),url(https://images.unsplash.com/photo-1455894127589-22f75500213a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f78ddf3c2fede3ef1bf89ecbc88bea2c&auto=format&fit=crop&w=979&q=80); 
   background-position: center center;
-  background-attachment: initial;
+  background-attachment: fixed;
 	background-size: cover;
   background-color:#336699;
   background-repeat: no-repeat;	/*height:100%;
