@@ -328,7 +328,8 @@ h2{
 iframe{
   position:center center;
   height:45em;
-  width:95%;
+  width:100%;
+  margin:0;
 }
 
 #loadingMessage {
