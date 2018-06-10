@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="icon" href="https://www.freeiconspng.com/uploads/profile-icon-28.png">
 <script type="text/javascript" src="js/cont.js"></script>
+<script type="text/javascript" src="js/loading.js"></script>
 <title>PORTFOLIO</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -33,7 +34,8 @@
 </div>
 <div class="articles" style="padding-top: 45px;">
   <center>
-  <iframe src="https://goo.gl/forms/NPyd8Ms2hnZVfXUY2" width="100%" height="100%">
+  <div id="loadingMessage" style="position:center center;background-color: white;"><img src="https://cdn.dribbble.com/users/315053/screenshots/1933749/social-media-fold.gif" alt="loading..."></div>
+  <iframe src="https://goo.gl/forms/NPyd8Ms2hnZVfXUY2" width="100%" height="100%" id="foo" onLoad="hideLoading()">
   </iframe>
   </center>
 </div>

@@ -62,5 +62,3 @@ if (endstr == -1)
 endstr = document.cookie.length;
 return unescape(document.cookie.substring(offset, endstr));
 }
-
-var txt="VISITORS COUNT :";
