@@ -292,7 +292,8 @@ img {
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: black;
+  background: linear-gradient( rgba(0,0,0,1), rgba(0,0,0,1) );
+  color: white;
   font-size: 18px;
   padding: 8px 12px;
   position: absolute;
