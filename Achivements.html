@@ -4,6 +4,8 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="icon" href="https://www.freeiconspng.com/uploads/profile-icon-28.png">
 <script type="text/javascript" src="js/cont.js"></script>
+<script type="text/javascript" src="js/loading.js"></script>
+<title>PORTFOLIO</title>
 <title>PORTFOLIO</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,7 +14,8 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 <body class="body">
- <div class="WebContainer">
+<div id="loadingMessage" style="background-color: white;width:100%; height:100%"><img src="https://loading.io/spinners/pies/lg.pie-chart-loading-gif.gif" alt="loading..."  class="img" ></div>
+ <div class="WebContainer" id="foo">
   <div class="topnav" id="myTopnav">
   <a class="active" href="index.html">PREETAM</a>
   <div style="float:right;">
@@ -36,7 +39,7 @@
 <div class="containers" class="articles">
   <div class="mySlides">
     <div class="numbertext">1 / 2</div>
-    <img src="images/pdf-1.jpg" style="width:100%">
+    <img src="https://github.com/Preetam2114/PORTFOLIO/raw/master/images/pdf-1.jpg" style="width:100%" onLoad="hideLoading()">
   </div>
 
   <div class="mySlides">
