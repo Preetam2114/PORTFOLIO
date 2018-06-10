@@ -330,6 +330,10 @@ img {
   opacity: 1;
 }
 
+h2{
+  font-size: 4vw;
+}
+
 iframe{
   position:center center;
   height:45em;
