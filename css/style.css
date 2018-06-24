@@ -99,9 +99,15 @@ body {
   color: white;
 }
 
-.avail{
+.college{
   border-radius: 25px;
-  background-color: #2901DA;
+  background-color: #FFFFCC;
+  color: white;
+}
+
+.external{
+  border-radius: 25px;
+  background-color: #CCFFFF;
   color: white;
 }
 
@@ -132,7 +138,7 @@ body {
     border-radius: 25px;
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: none;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
