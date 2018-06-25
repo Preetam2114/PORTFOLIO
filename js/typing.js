@@ -1,5 +1,5 @@
 var y = 0;
-var txti = 'Don\'t forget to give feedback by clicking feedback tab';
+var txti = 'WELCOME TO MY PROFILE';
 
 var speed = 50;
 
