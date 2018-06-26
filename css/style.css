@@ -10,7 +10,7 @@
 }
 
 .workshop{
-	background-image:linear-gradient( rgba(0,0,0,.35), rgba(0,0,0,.35) ),url(https://images.unsplash.com/photo-1473831818960-c89731aabc3e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c5b723d05824021bdab67bc0e14a5fb0&auto=format&fit=crop&w=1050&q=80); 
+	background-image:linear-gradient( rgba(0,0,0,.35), rgba(0,0,0,.35) ),url(http://wallpaperswide.com/download/work_from_home-wallpaper-2560x1440.jpg); 
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -24,7 +24,7 @@ hr{
 	border-bottom:1px solid rgba(0,0,0,0.2);
 }
 body{
-	background:linear-gradient( rgba(0,0,0,.45), rgba(0,0,0,.45) ),url(https://images.unsplash.com/photo-1523871762770-87bda6d9ab58?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=651c083bb21d6ff0ef6eaa4136cbef56&auto=format&fit=crop&w=1485&q=80); 
+	background:linear-gradient( rgba(0,0,0,.45), rgba(0,0,0,.45) ),url(https://images.unsplash.com/photo-1498049860654-af1a5c566876?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ee039d16c1a1638867bb1cc95bf3b833&auto=format&fit=crop&w=1050&q=80); 
   background-position: center center;
   background-attachment: fixed;
 	background-size: cover;
@@ -80,7 +80,7 @@ body {
 	width:100%;
   border-radius: 25px;
   overflow: hidden;
-  background-color: #333;
+  background-color: #000000 ;
 }
 
 .topnav a {
